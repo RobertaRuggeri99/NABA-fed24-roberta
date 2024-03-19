@@ -23,12 +23,43 @@ body {
     width: 400px;
     height: 300px;
 }
-.giallo {
-        position: absolute;
-        width: 20px;
-        height: 300px;
-        background-color: yellow;
-        top: 0%;
-        left: 30%;
-        z-index: 2;
-    }
+
+.bandiera.svezia .r1,
+.bandiera.svezia .r9 {
+    width: 116.595px;
+}
+.bandiera.svezia .r2,
+.bandiera.svezia .r4,
+.bandiera.svezia .r10,
+.bandiera.svezia .r12 {
+    width: 12.4066px;
+}
+.bandiera.svezia .r1,
+.bandiera.svezia .r2,
+.bandiera.svezia .r3,
+.bandiera.svezia .r4,
+.bandiera.svezia .r5,
+.bandiera.svezia .r9,
+.bandiera.svezia .r10,
+.bandiera.svezia .r11,
+.bandiera.svezia .r12,
+.bandiera.svezia .r13 {
+    height: 116.595px;
+}
+.bandiera.svezia .r3,
+.bandiera.svezia .r11 {
+    width: 41.997px;
+}
+.bandiera.svezia .r5,
+.bandiera.svezia .r13 {
+    width: 216.5946px;
+}
+.bandiera.svezia .r6,
+.bandiera.svezia .r8 {
+    width: 399.9997px;
+    height: 12.4066px;
+}
+.bandiera.svezia .r7 {
+    width: 399.9997px;
+    height: 41.997px;
+}
