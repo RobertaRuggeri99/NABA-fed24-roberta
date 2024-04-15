@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(220, 97, 20);
+}
+
+nav,
+main,
+aside,
+header,
+footer {
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav {
+    width: 60px;
+}
+
+section {
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section:last-child {
+    border-bottom: 0;
+}
+
+main {
+    flex-grow: 2;
+}
+aside {
+    width: 200px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+header {
+    display: flex;
+}
+header nav {
+}
+header .nome {
+    flex-grow: 2;
+}
