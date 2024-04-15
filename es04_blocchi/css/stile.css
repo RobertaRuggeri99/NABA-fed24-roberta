@@ -1,7 +1,7 @@
 strong {
     display: block;
 }
-.ehi {
+.boh {
     display: inline !important;
 }
 
@@ -14,7 +14,7 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: brown;
+    color: blue;
 }
 
 body {
