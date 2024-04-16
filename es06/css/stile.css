@@ -35,12 +35,11 @@ aside {
 .wrapper {
     display: flex;
 }
-
-header {
+header .nome {
     display: flex;
 }
-header nav {
-}
-header .nome {
+header .nome strong {
+    display: block;
     flex-grow: 2;
+    width: 100%;
 }
