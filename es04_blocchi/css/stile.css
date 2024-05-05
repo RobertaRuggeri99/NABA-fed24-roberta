@@ -5,17 +5,16 @@ strong {
     display: inline !important;
 }
 
-a,
 a:link {
-    color: red;
     text-decoration: none;
+    color: red;
 }
+a:visited {
+    color: green;
+}    
 a:hover {
     text-decoration: underline;
     color: blue;
-}
-a:visited {
-    color: rgb(236, 20, 189);
 }
 
 body {
