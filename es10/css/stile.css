@@ -36,6 +36,7 @@ border-right: none;
     border: 2px solid green;
     display: grid;
     grid: 50px 50px 50px 50px / 300px 300px;
+    grid-column: 2;
     
 }
 .tabella-alternativa-grid .cella {
@@ -45,4 +46,7 @@ border-right: none;
     padding-bottom: 10px;
     border-bottom: 1px solid palegreen;
     box-sizing: border-box;
+}
+.tabella-alternativa-grid .cellaB {
+    border: 1px;
 }
