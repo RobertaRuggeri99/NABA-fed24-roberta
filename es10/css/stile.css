@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+}
+.tabella-alternativa-flex {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid purple;
+    width: 600px;
+}
+.tabella-alternativa-flex .riga {
+    border-bottom: 1px solid plum;
+    display: flex;
+    width: 600px;
+}
+.tabella-alternativa-flex .riga .cella {
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px solid plum;
+}
+.tabella-alternativa-flex .riga .cellaB {
+border-right: none;
+}
+.tabella-alternativa-flex .riga .cellaA {
+    width: 100px;
+}
+
+
+
+.tabella-alternativa-grid {
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    display: grid;
+    grid: 50px 50px 50px 50px / 300px 300px;
+    
+}
+.tabella-alternativa-grid .cella {
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid palegreen;
+    box-sizing: border-box;
+}
