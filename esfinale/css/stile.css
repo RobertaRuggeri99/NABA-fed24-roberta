@@ -58,8 +58,9 @@ body {
 }
 
 .folder1::before {
-  content: '';
+  content: 'Occhi';
   position: absolute;
+  padding: 12px 22px;
   top: -40px;
   width: 300px;
   height: 40px;
@@ -76,8 +77,9 @@ body {
 }
 
 .folder2::before {
-  content: '';
+  content: 'Bocca';
   position: absolute;
+  padding: 12px 22px;
   top: -40px;
   width: 300px;
   height: 40px;
@@ -94,8 +96,9 @@ body {
 }
 
 .folder3::before {
-  content: '';
+  content: 'Gesti';
   position: absolute;
+  padding: 12px 22px;
   top: -40px;
   width: 300px;
   height: 40px;
@@ -112,8 +115,9 @@ body {
 }
 
 .folder4::before {
-  content: '';
+  content: 'Braccia e gambe';
   position: absolute;
+  padding: 12px 22px;
   top: -40px;
   width: 300px;
   height: 40px;
@@ -130,8 +134,9 @@ body {
 }
 
 .folder5::before {
-  content: '';
+  content: 'Postura';
   position: absolute;
+  padding: 12px 22px;
   top: -40px;
   width: 300px;
   height: 40px;
@@ -148,8 +153,9 @@ body {
 }
 
 .folder6::before {
-  content: '';
+  content: 'Spazio personale';
   position: absolute;
+  padding: 12px 22px;
   top: -40px;
   width: 300px;
   height: 40px;
