@@ -23,8 +23,8 @@ body {
   width: 35%; /* Imposta la larghezza del testo per un migliore controllo */
   position: absolute;
   top: 50px;
-  right: -60px;
-  margin: 60px;
+  right: -100px;
+  margin: 100px;
 }
 
 .folder1, .folder2, .folder3, .folder4, .folder5, .folder6 {

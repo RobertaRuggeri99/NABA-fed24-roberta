@@ -23,7 +23,7 @@ body {
   content: 'Occhi';
   position: absolute;
   padding: 12px 80px;
-  top: -40px;
+  top: -79.9px;
   width: 300px;
   height: 40px;
   margin-left: 0px;
@@ -46,7 +46,7 @@ body {
   content: 'Bocca';
   position: absolute;
   padding: 12px 80px;
-  top: -40px;
+  top: -80px;
   width: 300px;
   height: 40px;
   margin-left: 225px;
@@ -69,7 +69,7 @@ body {
   content: 'Gesti';
   position: absolute;
   padding: 12px 80px;
-  top: -40px;
+  top: -80px;
   width: 300px;
   height: 40px;
   margin-left: 450px;
@@ -92,7 +92,7 @@ body {
   content: 'Braccia e gambe';
   position: absolute;
   padding: 12px 40px;
-  top: -40px;
+  top: -80px;
   width: 300px;
   height: 40px;
   margin-left: 675px;
@@ -115,7 +115,7 @@ body {
   content: 'Postura';
   position: absolute;
   padding: 12px 80px;
-  top: -40px;
+  top: -80px;
   width: 300px;
   height: 40px;
   margin-left: 900px;
@@ -138,7 +138,7 @@ body {
   content: 'Spazio personale';
   position: absolute;
   padding: 12px 40px;
-  top: -40px;
+  top: -80px;
   width: 300px;
   height: 40px;
   margin-left: 1125px;
@@ -151,28 +151,106 @@ body {
   color: white;
 }
 
-.folder.contenitore {
+.contenitore {
   position: absolute;
-  left:0;
-  top: 130px;
+  left: 8px;
+  top: 72.9px;
   background: #DFCDBF;
-  border-radius: 25px;
-  padding: 25px;
+  border-radius: 0px 25px 25px 25px;
+  width: 1508px;
+  height: 655px;
 }
 
 .folder a, .folder div {
   display: block;
-  width: 1920px;
-  height: 1080px;
   margin-top: 50px;
   border-radius: 0px 25px 25px 25px;
   position: absolute;
 }
 
-.folder h1, .folder p {
+.header-text {
+  font-family: 'PP Neue Machina Plain', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: black;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 60px;
+  max-width: 60%; /* Imposta una larghezza massima per controllare il testo */
+  white-space: normal; /* Consente al testo di andare a capo */
+  word-wrap: break-word; /* Consente il wrapping delle parole */
+}
+
+.body-text {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: black;
+  text-align: left;
+  width: 30%; /* Imposta la larghezza del testo per un migliore controllo */
+  top: 150px;
+  right: -60px;
+  margin-left: 30px;
+}
+
+.secondo-text {
+  margin-top: 20px; /* Aggiunge spazio sopra l'elenco puntato */
+  font-family: 'HelveticaNeue', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: black;
+  text-align: left;
+  width: 30%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
+  top: 430px;
+  margin-right: -240px;
+  right: 870px;
+}
+
+.horizontal-line1 {
+  position: relative;
+  width: 1453px;
+  border-top: 1.5px solid black;
+  margin-left: 25px;
+  margin-top: -305px;
+}
+
+.orizzontale2 {
+  position: relative;
+  width: 880px;
+  border-top: 1.5px solid black;
+  margin-left: 25px;
+  margin-top: 160px;
+}
+
+.orizzontale3 {
+  position: relative;
+  width: 1453px;
+  border-top: 1.5px solid black;
+  margin-left: 25px;
+  margin-top: 420px;
+}
+
+
+.vertical-line {
+  border-left: 1.5px solid black;
+  height: 560px;
+  position: absolute;
+  top: 53%;
+  transform: translateY(-53%);
+  margin-left: 920px;
+  
+}
+
+img {
+  max-width: 35%;
+  height: auto;
+  display: block;
+  position: absolute;
+  bottom: 62.5px;
+  right: -5px;
+  margin-right: 35px; /* Adjust the margin to position the image */
 }
