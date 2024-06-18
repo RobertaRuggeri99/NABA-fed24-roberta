@@ -1,8 +1,10 @@
 body {
   background-color: ivory;
   font-family: 'Neue Machina', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
 .folder1, .folder2, .folder3, .folder4, .folder5, .folder6 {
   width: 90%; /* Imposta la larghezza dei folder al 90% della larghezza della pagina */
   max-width: 1503px; /* Larghezza massima per i folder */
@@ -158,7 +160,7 @@ body {
   background: #2B2B2B;
   border-radius: 0px 25px 25px 25px;
   width: 1508px;
-  height: 655px;
+  height: 650px;
 }
 
 .folder a, .folder div {
@@ -253,4 +255,16 @@ img {
   bottom: 62.5px;
   right: -5px;
   margin-right: 35px; /* Adjust the margin to position the image */
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  margin-top: auto
+}
+
+.footer p {
+  margin: 10px;
+  font-family: 'HelveticaNeue', sans-serif;
+  font-size: 10px;
 }

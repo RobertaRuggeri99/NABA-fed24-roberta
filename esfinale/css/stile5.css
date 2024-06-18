@@ -127,17 +127,19 @@ body {
   color: white;
 }
 
-.folder6 {
-  background: #2B2B2B;
-  top: 50px;
-  z-index: 6;
+body {
+  background-color: ivory;
+  font-family: 'Neue Machina', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .folder6::before {
   content: 'Spazio personale';
   position: absolute;
   padding: 12px 55px;
-  top: -80px;
+  top: -28px;
   width: 300px;
   height: 40px;
   margin-left: 1125px;
@@ -157,7 +159,7 @@ body {
   background: #F5BBD3;
   border-radius: 0px 25px 25px 25px;
   width: 1508px;
-  height: 655px;
+  height: 650px;
 }
 
 .folder a, .folder div {
@@ -172,7 +174,7 @@ body {
   font-size: 60px;
   font-weight: 600;
   line-height: 1.1;
-  color: black;
+  color: #2B2B2B;
   text-align: left;
   margin-left: 25px;
   margin-top: 60px;
@@ -186,7 +188,7 @@ body {
   font-size: 20px;
   font-weight: normal;
   line-height: 1.5;
-  color: black;
+  color: #2B2B2B;
   text-align: left;
   width: 30%; /* Imposta la larghezza del testo per un migliore controllo */
   top: 150px;
@@ -200,7 +202,7 @@ body {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
-  color: black;
+  color: #2B2B2B;
   text-align: left;
   width: 30%;
   position: absolute;
@@ -212,7 +214,7 @@ body {
 .horizontal-line1 {
   position: relative;
   width: 1453px;
-  border-top: 1.5px solid black;
+  border-top: 1.5px solid #2B2B2B;
   margin-left: 25px;
   margin-top: -305px;
 }
@@ -220,7 +222,7 @@ body {
 .orizzontale2 {
   position: relative;
   width: 880px;
-  border-top: 1.5px solid black;
+  border-top: 1.5px solid #2B2B2B;
   margin-left: 25px;
   margin-top: 160px;
 }
@@ -228,14 +230,14 @@ body {
 .orizzontale3 {
   position: relative;
   width: 1453px;
-  border-top: 1.5px solid black;
+  border-top: 1.5px solid #2B2B2B;
   margin-left: 25px;
   margin-top: 420px;
 }
 
 
 .vertical-line {
-  border-left: 1.5px solid black;
+  border-left: 1.5px solid #2B2B2B;
   height: 560px;
   position: absolute;
   top: 53%;
@@ -252,4 +254,16 @@ img {
   bottom: 62.5px;
   right: -5px;
   margin-right: 35px; /* Adjust the margin to position the image */
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  margin-top: auto
+}
+
+.footer p {
+  margin: 10px;
+  font-family: 'HelveticaNeue', sans-serif;
+  font-size: 10px;
 }
